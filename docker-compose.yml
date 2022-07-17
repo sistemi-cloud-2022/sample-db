@@ -10,5 +10,5 @@ services:
       MYSQL_USER: admin
       MYSQL_PASSWORD: admin
     volumes:
-      - "./sample_db.sql:/docker-entrypoint-initdb.d/1.sql"
+      - "./sample-db.sql:/docker-entrypoint-initdb.d/1.sql"
     container_name: sample_db
